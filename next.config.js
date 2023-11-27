@@ -6,6 +6,7 @@ const imageDomains = [
   "http2.mlstatic.com",
   "www.banpresto.es",
   "localhost",
+  "backendcoder-final-production.up.railway.app",
 ];
 
 const nextConfig = {
@@ -13,7 +14,7 @@ const nextConfig = {
     domains: imageDomains,
   },
   env: {
-    DOMAIN_API_URL: "http://localhost:8080",
+    DOMAIN_API_URL: "https://backbackend-production.up.railway.app",
   },
 };
 
